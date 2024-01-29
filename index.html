@@ -1,0 +1,45 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="col-xs-12 header_div text-center">
+      <h2>sound controlled animals</h2>
+      <p>note:play different sounds like meowing, barking, mooing to make animal happy</p>
+    </div>
+    <div class="main_div">
+      <center>
+        <br>
+        <button class="btn btn-warning" onclick="startClassification()">start</button>
+        <h3 id="result_label">i can hear-</h3>
+        <h4 id="result_confidence">accuracy-</h4>
+        <br>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Juvenile_Ragdoll.jpg/800px-Juvenile_Ragdoll.jpg" id="cat" width="300" height="300">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*" id="dog" width="300" height="300">
+        <img src="https://cdn.britannica.com/55/174255-050-526314B6/brown-Guernsey-cow.jpg" id="cow" width="300" height="300">
+      </center>
+    </div>
+    <div class="copy_right_footer">
+    Developed By-Anthony Wooden
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
